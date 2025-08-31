@@ -55,8 +55,11 @@ function modifyLits (list) {
     console.log('x = list[i]:', x)
     list[i] = list[n - i - 1] - x
     console.log('list[n - i - 1] - x:', list[n - i - 1] - x)
+    console.log('x', x)
+    console.log('list[n - i - 1]', list[n - i - 1])
     list[n - i - 1] = x
   }
+  console.log('array despues de modificar', list)
 }
 
 function modifyTheList (head) {
